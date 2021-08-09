@@ -4,9 +4,16 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// in node, we'd do
+// const app = require('./App);
 ReactDOM.render(
   <React.StrictMode>
+
+    {/* this is our app() function
+    we also call App a "Component"
+    */}
     <App />
+
   </React.StrictMode>,
   document.getElementById('root')
 );
